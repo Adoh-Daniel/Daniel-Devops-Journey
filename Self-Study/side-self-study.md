@@ -65,7 +65,7 @@ These phases are typically sequential and iterative, meaning that they may be re
 - Default Port: 22 (TCP)
 - Used for secure file transfer over a network, combining SSH security with FTP capabilities.
 
-
+Understanding the differences between TCP and UDP, as well as knowing the commonly used ports, is essential for network administrators, developers, and anyone working with networking protocols and services.
 
 
 
