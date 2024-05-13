@@ -1,1 +1,1 @@
-![LAMP](https://www.reallinuxuser.com/wp-content/uploads/2018/08/linux-logo.jpg)
+![LAMP]([https://github.com/Adoh-Daniel/Daniel-Devops-Journey/blob/main/LAMP/IMAGES/A5.webp])
