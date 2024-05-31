@@ -20,6 +20,7 @@ To verify apache is running as a service, it was green and running which indicat
 
 I accessed my apache HTTP server on port 80 locally and test if it responded to request from the internet using
 curl http://localhost:80
+
 http://my-public-ip-address:80
 
 **Step 4 Installing MySQl** I run the following commands to install MySQl
@@ -30,6 +31,8 @@ http://my-public-ip-address:80
 I log in to the mysql console using this command
 
                     sudo mysql
+
+
 
                     
 
