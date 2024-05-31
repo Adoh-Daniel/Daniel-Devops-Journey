@@ -26,7 +26,7 @@ http://my-public-ip-address:80
 
                     sudo apt install mysql-server
 
-![]()
+
 I log in to the mysql console using this command
 
                     sudo mysql
