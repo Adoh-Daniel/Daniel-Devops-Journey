@@ -8,6 +8,8 @@
 
 **Step 2 Connecting to my AWS Ec2 instance via ssh**. To achieve this i made sure i downloaded and name my-private-key.pem file correctly, which was in my windows download folder. Then, I change my directory using `cd /mnt/c/users/hp/Downloads`, I used the following commannds to ssh into my Ec2 instance. `ssh chmod 400 "Danec2.pem"` Note that this will ask for password, then `ssh -i "Danec2.pem" ubuntu@ec2-16-170-212-214.eu-north-1.compute.amazonaws.com` which i was successfully connected to my ec2 instance.
 
+![IMG_20240601_111736](https://github.com/Adoh-Daniel/Daniel-Devops-Journey/assets/169608648/7c47ed9a-7940-4722-8f89-736b7a591ea9)
+
 **Step 3 Installing Apache and updating firewall**. I updated all list of packages in my package manager, then i run apache package installation using 
 
                     sudo apt update
