@@ -18,12 +18,16 @@ To verify apache is running as a service, it was green and running which indicat
 
                     sudo systemctl status apache2
 
+
+
 I accessed my apache HTTP server on port 80 locally and test if it responded to request from the internet using
 curl http://localhost:80
 
 http://my-public-ip-address:80
 
-**Step 4 Installing MySQl** I run the following commands to install MySQl
+![IMG_20240527_215715](https://github.com/Adoh-Daniel/Daniel-Devops-Journey/assets/169608648/1263cd2b-d36f-4a39-93fc-d864f994fc75)
+
+**Step 4 Installing MySQl:** I run the following commands to install MySQl
 
                     sudo apt install mysql-server
 
@@ -32,6 +36,21 @@ I log in to the mysql console using this command
 
                     sudo mysql
 
+Then I set a password for root user using mysql_native_password as default authentication method. And my user's password was defined as "DeeDan000$"
+
+                    ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY "DeeDan000$";
+
+I exited mysql shell with
+
+                    exit
+
+Now, regardless whether the VALIDATION PASSWORD PLUGIN is set up, the server will ask to select and confirm a password for mysql root user.
+
+A command propmt for password was noticed after running this command below
+
+                    sudo mysql -p
+
+**Step 5 Installing PHP
 
 
                     
