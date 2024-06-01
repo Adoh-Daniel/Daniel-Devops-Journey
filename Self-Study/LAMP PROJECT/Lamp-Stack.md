@@ -18,7 +18,7 @@ To verify apache is running as a service, it was green and running which indicat
 
                     sudo systemctl status apache2
 
-
+![IMG_20240526_022324](https://github.com/Adoh-Daniel/Daniel-Devops-Journey/assets/169608648/37392619-cc9a-4258-9397-c889f1f1ad23)
 
 I accessed my apache HTTP server on port 80 locally and test if it responded to request from the internet using
 curl http://localhost:80
@@ -50,7 +50,11 @@ A command propmt for password was noticed after running this command below
 
                     sudo mysql -p
 
-**Step 5 Installing PHP
+**Step 5 Installing PHP:** 3 package was install at once using this command
+
+                    sudo apt install php libapache2-mod-php php-mysql
+
+
 
 
                     
